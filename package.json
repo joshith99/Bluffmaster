@@ -1,0 +1,20 @@
+{
+  "name": "bluffmaster",
+  "version": "1.0.0",
+  "description": "Players receive secret word, except one designated as the Bluffmaster. They discuss and guess who's bluffing. The Bluffmaster has to blend in or guess the word to win.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.4",
+    "mongodb": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
